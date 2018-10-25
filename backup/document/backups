@@ -1,0 +1,15 @@
+json 修改数据
+https://www.cnblogs.com/HZQHZA/p/7301362.html
+
+python Locut
+https://blog.csdn.net/jojoy_tester/article/details/77926470
+
+python 获取Cookies例子
+
+import request
+session =session.requests
+res = session.post(xxx,xxx,xxx)
+print(res.request.headers)
+
+
+1、git  Create git repository 创建一个本地才仓库

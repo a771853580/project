@@ -1,0 +1,25 @@
+配置邮箱地址：
+$ git config --global user.name “github’s Name”
+$ git config --global user.email "github@xx.com"
+$ git config --list
+
+
+配置key方法
+1、打开git-bach程序
+2、输入： ssh-keygen -t rsa -C "youremail@example.com"
+3、生成key目录，路径看返回值
+4、Key文本框里粘贴id_rsa.pub文件的内容
+
+git使用方法已经配置：
+https://www.cnblogs.com/xiaozhiqi/p/5955769.html
+
+git提交代码：
+1、修改的文件后再次提交git，使用commit directory/commit file;
+commit 提交缓存区
+push 提交远程仓库
+
+2、创建分支，把修改的代码提交到分支，可随时切换分支代码(create branches-创建分支)
+VCS→Git→Branches
+
+3、再合并分支代码；
+VCS→Git→Merge Changes

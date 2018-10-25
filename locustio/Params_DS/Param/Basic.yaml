@@ -1,0 +1,33 @@
+---
+Basic:
+  dec: /
+  parameters:
+    -
+      url: {
+            "url_1": "/dspt/rest/user?_=",
+      }
+      data: {"test":"test"
+      }
+      header: {
+                 'Connection':'keep-alive',
+                 'Content-Type':'application/json;charset=UTF-8',
+              }
+    -
+      url: /hiserver/rest/dsinjureds/HidInjureCaseService/saveFirstTrackPojo
+      data: {
+            "collectionStatus": 0
+        }
+      header: {
+                 'Connection':'keep-alive',
+                 'Content-Type':'application/json;charset=UTF-8',
+              }
+    -
+      url: /hiserver/rest/dsinjureds/HidInjureCaseService/deleteHidInjureCase
+      data: {
+              'test':'test',
+      }
+      header: {
+                 'Connection':'keep-alive',
+                 'Content-Type':'application/json;charset=UTF-8',
+              }
+
